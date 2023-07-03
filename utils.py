@@ -2,6 +2,12 @@ import numpy as np
 import torch
 import torchvision
 import torch.nn.functional as F
+from PIL import Image
+
+def read_PIL_image(image_path):
+    img = Image.open(image_path)
+    img = img.convert("RGB")
+    return img
 
 def get_pairs(dataset,batch_size):
 

@@ -1,0 +1,9 @@
+dset_root_path : '/media/lucap/big_data/datasets/repair/triplets/siamese_repair/dataset/'
+dset_v : 'v3'
+
+pos_pairs_per_objects : 20
+neg_pairs_per_objects : 20 
+
+perc_hard_triplets : 0.2
+perc_semihard_triplets : 0.75
+perc_easy_triplets : 0.05

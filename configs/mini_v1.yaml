@@ -1,0 +1,26 @@
+# dataset
+dataset_root : '/media/lucap/big_data/datasets/repair/triplets/siamese_repair/dataset/v3/'
+raw_data_path : '/media/lucap/big_data/datasets/repair/triplets/siamese_repair/seg/'
+
+# network parameters
+model : 'mini_v1'
+img_size : 512
+
+# training parameters
+bs : 16
+lr : 0.001
+threshold : 0.5
+margin : 1.5
+epochs : 5
+
+# training transforms
+p_auto_contrast : 0.25
+data_augmentation : 1
+mean : 'mean_single_val.txt'
+std : 'std_single_val.txt'
+
+# output/checkpoints
+ckp_dir : '/media/lucap/big_data/datasets/repair/triplets/siamese_repair/checkpoints/'
+
+
+
